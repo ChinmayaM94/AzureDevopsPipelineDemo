@@ -69,7 +69,7 @@ public class ExcelUtility {
 		wb.close();
 	}
 	
-	@DataProvider
+	//@DataProvider
 	public Object[][] getMultipleDataFromExcel(String sheetName, int startRow, int startCol) throws Throwable {
 		FileInputStream fis = new FileInputStream("./src/test/resources/testScriptData2.xlsx");
 		Workbook wb = WorkbookFactory.create(fis);
