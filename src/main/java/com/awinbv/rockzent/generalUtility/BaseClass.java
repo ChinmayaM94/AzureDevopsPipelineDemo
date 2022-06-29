@@ -59,7 +59,7 @@ public class BaseClass {
 		wLib.maximize(driver);
 		wLib.waitUntilPageLoad(driver);
 		/*Navigate to application*/
-		driver.get(URL);
+		driver.get("https://stackoverflow.com/");
 	}
 	
 	@BeforeMethod(groups = {"smokeTest", "regressionTest"})
