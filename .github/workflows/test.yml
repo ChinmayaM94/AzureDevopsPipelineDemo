@@ -5,5 +5,6 @@ on:
 
 jobs:
   deploy:
+    runs-on: [ allure ]
     steps:
       - run: echo "We did the right thing!"
