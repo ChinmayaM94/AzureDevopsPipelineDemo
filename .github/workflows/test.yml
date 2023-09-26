@@ -1,10 +1,10 @@
-name: Basic workflow demo
+name: Basic Workflow Dispatch Demo
 
 on:
-workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
-deploy:
-runs-on: x64
-steps:
-- run: echo "We did the thing!"
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "We did the thing!"
